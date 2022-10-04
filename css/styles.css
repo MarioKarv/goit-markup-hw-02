@@ -1,0 +1,105 @@
+:root{
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white: #ffffff;
+    --black: #000000;
+    --background: #2F303A;
+    --title: #212121;
+}
+
+
+
+.list{
+    list-style: none;
+}
+
+/* колір основного тексту #212121 */
+/* другорядний колір тексту #757575*/
+/* акцент #2196F3 */
+/* #FFFFFF білий */
+/* #2F303A другорядний */
+/*  */
+
+body{
+    color: var(--primary-text-color);
+    background: var(--white);
+}
+/* header */
+.logo{
+    color: var(--black);
+}
+
+.logo-span{
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+    color: var(--title);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.contacts .meltel{
+    color: var(--primary-text-color);
+}
+
+.contacts .meltel:hover,
+.contacts .meltel:focus{
+    color: var(--accent-color);
+}
+/* main */
+.hero{
+    background: var(--background);
+}
+
+.hero-title{
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background: #2F303A;
+}
+
+.address-link{
+    color: #ffffff;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: #2196F3;
+}
+
+.address-mt{
+    color: #757575;
+}
+
+.address-mt:hover,
+.address-mt:focus{
+    color: #2196F3;
+}
