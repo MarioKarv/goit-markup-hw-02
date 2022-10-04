@@ -59,8 +59,21 @@ body{
     color: var(--white);
 }
 
+.section{
 
+}
 
+.section-titlef{
+    display: none;
+}
+
+.section-title{
+    color: var(--title);
+}
+
+.section-t{
+    color: var(--title);
+}
 
 
 
@@ -83,23 +96,23 @@ body{
 
 /* footer */
 .footer{
-    background: #2F303A;
+    background: var(--background);
 }
 
 .address-link{
-    color: #ffffff;
+    color: var(--white);
 }
 
 .address-link:hover,
 .address-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .address-mt{
-    color: #757575;
+    color: var(--primary-text-color)
 }
 
 .address-mt:hover,
 .address-mt:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
