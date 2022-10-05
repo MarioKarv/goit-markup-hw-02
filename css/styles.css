@@ -5,6 +5,7 @@
     --black: #000000;
     --background: #2F303A;
     --title: #212121;
+    --button: #F5F4FA;
 }
 
 
@@ -22,7 +23,7 @@
 
 body{
     color: var(--primary-text-color);
-    background: var(--white);
+    background-color: var(--white);
 }
 /* header */
 .logo{
@@ -42,6 +43,10 @@ body{
     color: var(--accent-color);
 }
 
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
 .contacts .meltel{
     color: var(--primary-text-color);
 }
@@ -52,15 +57,30 @@ body{
 }
 /* main */
 .hero{
-    background: var(--background);
+    background-color: var(--background);
 }
 
 .hero-title{
     color: var(--white);
 }
 
+.button{
+    color: var(--title);
+    background-color: var(--button);
+}
+
+.button:hover,
+.button:focus{
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
 .section{
 
+}
+
+.section-team{
+    background-color: var(--button);
 }
 
 .section-titlef{
